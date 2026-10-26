@@ -2,7 +2,7 @@
   "source_repo": "leecolin2023/ingest2md",
   "source_commit": "a24457fa3479b5410c8dc93fa66cffbe4fd98fee",
   "target": "archive",
-  "count": 7,
+  "count": 5,
   "files": [
     {
       "source_path": "output-Refinement/20261017__孕35周 听了姐妹们的建议准爸爸重新整理了待产包 一定要让他收拾噢 这样就能记住所有东西 住院时好.md",
@@ -27,18 +27,6 @@
       "target_path": "business/20261023__E146. 为什么越重要的事，越容易选错？研究“选择”的经济学家 叶晓阳/refinement.md",
       "source_sha256": "0bb918599ea362755de7cebe668dc99d29917740593a56022c7be5c4e8673d95",
       "target_sha256": "0bb918599ea362755de7cebe668dc99d29917740593a56022c7be5c4e8673d95"
-    },
-    {
-      "source_path": "output-Learning/20261025__2.26 深信服18k （重点看）__DeepRead.md",
-      "target_path": "inbox/20261025__2.26 深信服18k （重点看）/deep-read.md",
-      "source_sha256": "31329e229e5cef40a32a2797f37c66614562983bed5d8209c17d9e2a04716f2f",
-      "target_sha256": "31329e229e5cef40a32a2797f37c66614562983bed5d8209c17d9e2a04716f2f"
-    },
-    {
-      "source_path": "output-Learning/20261025__2.26 深信服18k （重点看）__Learning.md",
-      "target_path": "inbox/20261025__2.26 深信服18k （重点看）/learning.md",
-      "source_sha256": "abf01a810e72072e461eed842b62d1907c1ce2422289bafaef183a1ad353979c",
-      "target_sha256": "abf01a810e72072e461eed842b62d1907c1ce2422289bafaef183a1ad353979c"
     },
     {
       "source_path": "output-Learning/20261025__从探图到行动_AI时代如何发现真实机会.md",
