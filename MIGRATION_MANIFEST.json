@@ -2,7 +2,7 @@
   "source_repo": "leecolin2023/ingest2md",
   "source_commit": "a24457fa3479b5410c8dc93fa66cffbe4fd98fee",
   "target": "archive",
-  "count": 5,
+  "count": 9,
   "files": [
     {
       "source_path": "output-Refinement/20261017__孕35周 听了姐妹们的建议准爸爸重新整理了待产包 一定要让他收拾噢 这样就能记住所有东西 住院时好.md",
@@ -33,6 +33,43 @@
       "target_path": "business/20261025__从探图到行动_AI时代如何发现真实机会/learning.md",
       "source_sha256": "b80a4142fa1f9e2a1eb9ed56c5b716aca3de3241b34008a9d7cdb91f258f1349",
       "target_sha256": "b80a4142fa1f9e2a1eb9ed56c5b716aca3de3241b34008a9d7cdb91f258f1349"
+    },
+    {
+      "source_path": "output-Learning/20261026__【睡前消息1122】98_新岗位，归美国女人__DeepRead.md",
+      "target_path": "business/20261026__【睡前消息1122】98_新岗位，归美国女人/deep-read.md",
+      "source_sha256": "fbc76b12ee0328b438f64ea5f9283eaf2e0137be2cc9072ac9e80da921dc76cb",
+      "target_sha256": "fbc76b12ee0328b438f64ea5f9283eaf2e0137be2cc9072ac9e80da921dc76cb",
+      "source_commit": "cd9868d7c11b1d2a8fdcdb20edba2df813a04704"
+    },
+    {
+      "source_path": "output-Learning/20261026__【睡前消息1122】98_新岗位，归美国女人__Learning.md",
+      "target_path": "business/20261026__【睡前消息1122】98_新岗位，归美国女人/learning.md",
+      "source_sha256": "f8ebb2b6bc52110bcef3e81fb3ebd3f3543ec44a26c3602e4bcba2659728fb3c",
+      "target_sha256": "f8ebb2b6bc52110bcef3e81fb3ebd3f3543ec44a26c3602e4bcba2659728fb3c",
+      "source_commit": "cd9868d7c11b1d2a8fdcdb20edba2df813a04704"
+    },
+    {
+      "source_path": "output-Learning/20261026__李想近二十年最精彩的演讲没有之一，讲述理想汽车成功之道__DeepRead.md",
+      "target_path": "business/20261026__李想近二十年最精彩的演讲没有之一，讲述理想汽车成功之道/deep-read.md",
+      "source_sha256": "6dbda3093cf8c6157318f413896c4a43917e976eec95a1c6b4964b79f42ed0ac",
+      "target_sha256": "6dbda3093cf8c6157318f413896c4a43917e976eec95a1c6b4964b79f42ed0ac",
+      "source_commit": "cd9868d7c11b1d2a8fdcdb20edba2df813a04704"
+    },
+    {
+      "source_path": "output-Learning/20261026__李想近二十年最精彩的演讲没有之一，讲述理想汽车成功之道__Learning.md",
+      "target_path": "business/20261026__李想近二十年最精彩的演讲没有之一，讲述理想汽车成功之道/learning.md",
+      "source_sha256": "ab0820b5c9502e750125ce70483cb82bd799a7612f260f5fbfe072fabd9a365c",
+      "target_sha256": "ab0820b5c9502e750125ce70483cb82bd799a7612f260f5fbfe072fabd9a365c",
+      "source_commit": "cd9868d7c11b1d2a8fdcdb20edba2df813a04704"
+    }
+  ],
+  "incremental_imports": [
+    {
+      "source_commit": "cd9868d7c11b1d2a8fdcdb20edba2df813a04704",
+      "count": 4,
+      "source_prefix": "output-Learning/",
+      "target": "leecolin2023/knowledge-archive",
+      "note": "Business/economic analysis and entrepreneur management strategy learning pairs"
     }
   ]
 }
