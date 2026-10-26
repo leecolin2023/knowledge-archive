@@ -1,0 +1,28 @@
+name: One-time migration of ingest2md general learning materials
+on:
+  push:
+    paths:
+      - '.github/workflows/migrate-ingest.yml'
+permissions:
+  contents: write
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Clone source and migration script
+        shell: bash
+        run: |
+          git clone --depth 1 https://github.com/leecolin2023/ingest2md.git "$RUNNER_TEMP/ingest-source"
+          git clone --depth 1 https://github.com/leecolin2023/HarnessLab.git "$RUNNER_TEMP/harness-source"
+          python3 "$RUNNER_TEMP/harness-source/tools/migrate_ingest_outputs.py" --target archive --source "$RUNNER_TEMP/ingest-source" --root "$GITHUB_WORKSPACE"
+      - name: Commit classified materials
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add business/ life/ inbox/ MIGRATION_MANIFEST.json
+          if ! git diff --cached --quiet; then
+            git commit -m "archive: import business and life materials from ingest2md"
+            git push origin HEAD:main
+          fi
